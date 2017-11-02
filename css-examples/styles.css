@@ -1,7 +1,18 @@
 p {
-  color:blue:
+  color:blue;
 }
+
 h1 {
-  color:red:
-    font-family: Comic Sans;
+  color:red;
+  font-family:Comic Sans MS;
+}
+
+#a1{
+  color:Green;
+  font-family:Comic Sans MS;
+}
+
+#a2{
+  color:Yellow;
+  font-family:Comic Sans MS;
 }
