@@ -1,0 +1,28 @@
+body{
+  border:5px solid Green;
+}
+.background{
+  background-color: Blue;
+  font-family:Comic Sans MS;
+}
+.background2{
+  background-color: lightBlue;
+  font-family:Comic Sans MS;
+}
+.text{
+  color:lightGreen;
+  font-family:Comic Sans MS;
+}
+p{
+  color:lightGreen;
+  font-family:Comic Sans MS;
+  background-color: blue;
+}
+td{
+  color: red;
+  font-family:Comic Sans MS;
+}
+.comments{
+  color: red;
+  font-family:Comic Sans MS;
+}
