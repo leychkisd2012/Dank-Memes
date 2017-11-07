@@ -1,77 +1,206 @@
 <!DOCTYPE html>
 <html>
 <body>
-<!-- This is a comment that you can't see on the page itself-->
-<h1>HTML</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-<h1> HEAD</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Title</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Body</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Heading</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Paragraph</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Break</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Line</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Comment</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Link</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Image</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>List</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Table</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-    <h1>Blocks</h1>
-  <h3>Description</h3>
-  <h3>Syntax</h3>
-  <h3>Outcome</h3>
-  <title>&lt;title&gt;Reference Page&lt; /title&gt;</title>
+ <hr>
+    
+    <h1 id="html">HTML</h1>
+    <h3>Description</h3>
+    <p>HTML is the main document type that we will be using this unit and the syntax basically encompasses the entire page</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;html&gt;</p>
+    <p>Add everything you need in your page in between these two tags</p>
+    <p>end: &lt;/html&gt;</p>
+    <h3>Example</h3>
+    <p>This entire page!</p>
+    <h3>Outcome</h3>
+    <p>Basically the entire page</p>
+    
 
-<p> &lt;p&gt;This is a reference paragraph meant to show that I am aware of what we are currently doing in this class.<br> It also has a a break in it which looks like &lt;br&gt;because I also need to show that. The end syntax looks like &lt;/p&gt;</p>
+    
+    <h1 id="head">Main Head</h1>
+    <h3>Description</h3>
+    <p>This is the main head and it has stuff in it the controls the entire rest of th epage like colors and titles</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;head&gt;</p>
+    <p>Between the start and end, add different titles, fonts, color modifiers, etc... if you don't want to put them in a CSS file.</p>
+    <p>end: &lt;/head&gt;</p>
+    <h3>Example</h3>
+    <p>Sets the title of the page</p>
+    <h3>Outcome</h3>
+    <p>Whatever it looks like</p>
 
-<p id="a2"> Here is a picture of a cat.<br> It is a very good cat</p>
+    
+    
+    <h1 id="title">Title</h1>
+    <h3>Description</h3>
+    <p>Sets the title of the page so that it can be referenced later.</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;title&gt;</p>
+    <p>Whatever you want the title to be</p>
+    <p>end: &lt;/title&gt;</p>
+    <h3>Example</h3>
+    <p>Naming your page based on its contents</p>
+    <h3>Outcome</h3>
+    <p>N/A</p>
+    
+    
+    
+    <h1 id="body">Body</h1>
+    <h3>Description</h3>
+    <p>The body is what encompasses the entire code of the page.</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;body&gt;</p>
+    <p>EVERYTHING</p>
+    <p>end: &lt;/body&gt;</p>
+    <h3>Example</h3>
+    <p>Making a body about monkeys with a blue background</p>
+    <h3>Outcome</h3>
+    <p>Page Appearance</p>
 
-<a href="https://leychkisd2012.github.io">BACK</a>
-  
-<a href="https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/693C/production/_95804962_p0517py6.jpg">&lt;a href="link"&gt;Very Good Cat>&lt;/a&gt;</a>
+    
+    
+    <h1 id="heading">Heading</h1>
+    <h3>Description</h3>
+    <p>Adds nice, large(or small) text that is bolded which can be used to separate sections or make something easier to locate.</p>
+    <h3>Syntax</h3>
+    <p>start:&lt;h#&gt;</p>
+    <p>Name of heading(# is the size)</p>
+    <p>end:&lt;/h#&gt</p>
+    <h3>Example</h3>
+    <p>The above text is a heading</p>
+    <h3>Outcome</h3>
+  <p><h4> This is a smaller heading</h4></p>
+    
+    
+        
+    <h1 id="para">Paragraph</h1>
+    <h3>Description</h3>
+    <p>Most of the text in an html page</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;p&gt;</p>
+    <p>paragraph text</p>
+    <p>end: &lt;/p&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;p&gt;This is an example paragraph&lt;/p&gt;</p>
+    <h3>Outcome</h3>
+    <p>This is an example paragraph</p>
+    
+    
+        
+    <h1 id="breaks">Break</h1>
+    <h3>Description</h3>
+    <p>Can break or enter the text in a paragraph</p>
+    <h3>Syntax</h3>
+    <p>&lt;br&gt;</p>
+    <h3>Example</h3>
+    <p>This is an &lt;br&gt; example paragraph</p>
+    <h3>Display</h3>
+    <p>This is an <br> example paragraph</p>
+    
+    
+    
+    <h1 id="lines">Line</h1>
+    <h3>Description</h3>
+    <p>Creates a line that can be used for splitting off parts</p>
+    <h3>Syntax</h3>
+    <p>&lt;hr&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;hr&gt;This will be crossed out</p>
+    <h3>Outcome</h3>
+    <p><hr>This is now crossed out</p>
+    
+    
+    
+    <h1 id="comments">Comments</h1>
+    <h3>Description</h3>
+    <p>Can be used in the code to make note of things</p>
+    <h3>Syntax</h3>
+    <p>&lt;!-- and --&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;!This is the comments part--&gt</p>
+    <h3>Outcome</h3>
+  <!-- Here is a comment -->
+    
+    
+    
+    <h1 id="links">Links</h1>
+    <h3>Description</h3>
+    <p>these add hyperlinks to other pages or parts of the page.</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;a href="Desired-Link"></p>
+    <p> What the link should look like</p>
+    <p>end: &lt;/a&gt;
+    <h3>Example</h3>
+    <p>&lt;a href="google.com">Google&lt;/a&gt;</p>
+    <h3>Outcome</h3>
+    <p><a href=google.com>Google</a></p>
+    
+    
+    
+    <h1 id="images">Image Element</h1>
+    <h3>Description</h3>
+    <p>Description of element</p>
+    <h3>Syntax</h3>
+    <p>the syntax of element</p>
+    <h3>Example</h3>
+    <p>some example useage of element</p>
+    <h3>Outcome</h3>
+    <p>how element looks in the browser</p>
+    
+    
+    
+    <h1 id="lists">Lists</h1>
+    <h3>Description</h3>
+    <p>Creates a list of objects</p>
+    <h3>Syntax</h3>
+    <p>start: &lt;ol&gt;&lt;ul&gt;&lt;li&gt;</p>
+    <p>end: &lt;/ol&gt;&lt;/ul&gt;&lt;/li&gt;</p>
+    <h3>Example</h3>
+    <p> <h2>Cat Breeds but its a List</h2>
 
-<p id="a1"> If you are feeling lazy and don't want to click the link, that's fine. Here is the same image below</p>
+&lt;ul style="list-style-type:disc"&gt;
+  &lt;li>Tabby&lt;/li&gt;
+  &lt;li>Siamese&lt;/li&gt;
+  &lt;li>Bengal&lt;/li&gt;
+  &lt;li>Scottish Fold&lt;/li&gt;
+&lt;/ul&gt;  &lt;/p&gt;
+    <h3>Outcome</h3>
+    <p> <h2>Cat Breeds but its a List</h2>
 
-<img src="https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/693C/production/_95804962_p0517py6.jpg">
-
+<ul style="list-style-type:disc">
+  <li>Tabby</li>
+  <li>Siamese</li>
+  <li>Bengal</li>
+  <li>Scottish Fold</li>
+</ul>  </p>
+    
+    
+    
+    <h1 id="tables">Tables</h1>
+    <h3>Description</h3>
+    <p>Creates a table of sorted informtaion</p>
+    <h3>Syntax</h3>
+    <p>start:&lt;th&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt; </p>
+    <p>end: &lt;/th&gt;&lt;/table&gt;&lt;/tr&gt;&lt;/td&gt;>/p>
+    <h3>Example</h3>
+    <p>See table below</p>
+    <h3>Outcome</h3>
+    <p>See table below</p>    
+    
+    
+    <h1 id="blocks">Blocks</h1>
+    <h3>Description</h3>
+    <p>The officially divide the page into designated parts</p>
+    <h3>Syntax</h3>
+    <p>&lt;div&gt;</p>
+    <p>&lt;/div&gt;</p>
+    <h3>Example</h3>
+    <p>Dividing a part to style it only</p>
+    <h3>Outcome</h3>
+    <p> N/A</p> 
+    
+    
+ 
 <table style="width:30%">
   <tr>
     <th>Link</th>
@@ -79,81 +208,74 @@
     <th>End Tag</th>
   </tr>
   <tr>
-    <td><a href=exercises/headings.html>Header</a></td>
+    <td><a href=#headings>Header</a></td>
     <td>&lt;h1&gt;</td>
     <td>&lt;/h1&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/paragraphs.html>Paragraphs</a></td>
+    <td><a href=#para>Paragraphs</a></td>
     <td>&lt;p&gt;</td>
     <td>&lt;/p&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/break.html>Break</a></td>
+    <td><a href=#breaks>Break</a></td>
     <td>&lt;br&gt;</td>
     <td>&lt;/br&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/links2.html>Links</a></td>
+    <td><a href=#links>Links</a></td>
     <td>&lt;a href="link"&gt;</td>
     <td>&lt;/a&gt;</td>
   </tr>
 <tr>
-    <td><a href=exercises/images.html>Images</a></td>
+    <td><a href=#images>Images</a></td>
     <td>&lt;img&gt;</td>
   </tr>
 <tr>
-    <td><a href=exercises/Lines.html>Lines</a></td>
+    <td><a href=#lines>Lines</a></td>
     <td>&lt;hr&gt;</td>
   </tr>
 <tr>
-    <td><a href=exercises/body.html>Body</a></td>
+    <td><a href=#body>Body</a></td>
     <td>&lt;body&gt;</td>
     <td>&lt;/bodya&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/html.html>HTML</a></td>
+    <td><a href=#html>HTML</a></td>
     <td>&lt;html&gt;</td>
     <td>&lt;/html&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/head.html>Head</a></td>
+    <td><a href=#head>Head</a></td>
     <td>&lt;head&gt;</td>
     <td>&lt;/head&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/title.html>Title</a></td>
+    <td><a href=#title>Title</a></td>
     <td>&lt;title&gt;</td>
     <td>&lt;/title&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/blocks.html>Blocks</a></td>
+    <td><a href=#blocks>Blocks</a></td>
     <td>&lt;div&gt;</td>
     <td>&lt;/div&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/tables.html>Tables</a></td>
+    <td><a href=#tables>Tables</a></td>
     <td>&lt;th&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;</td>
     <td>&lt;/th&gt;&lt;/table&gt;&lt;/tr&gt;&lt;/td&gt;</td>
   </tr>
   <tr>
-    <td><a href=exercises/lists.html>Lists</a></td>
+    <td><a href=#lists>Lists</a></td>
     <td>&lt;ol&gt;&lt;ul&gt;&lt;li&gt;</td>
     <td>&lt;/ol&gt;&lt;/ul&gt;&lt;/li&gt;</td>
   </tr>
   </table>
    <tr>
-    <td><a href=exercises/comments.html>Comments</a></td>
+    <td><a href=>Comments</a></td>
     <td>&lt;!--;</td>
     <td>--&gt;</td>
   </tr>
-  <h2>Cat Breeds but its a List</h2>
-
-<ul style="list-style-type:disc">
-  <li>Tabby</li>
-  <li>Siamese</li>
-  <li>Bengal</li>
-  <li>Scottish Fold</li>
-</ul>  
+  
   
 </body>
