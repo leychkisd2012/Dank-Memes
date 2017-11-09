@@ -3,19 +3,19 @@ body{
   background-color:lightGray;
 }
 .background{
-  background-color: Blue;
-  font-family:Comic Sans MS;
-}
-.background2{
   background-color: Gray;
   font-family:Comic Sans MS;
 }
+.background2{
+  background-color: lightGray;
+  font-family:Comic Sans MS;
+}
 .text{
-  color:lightGreen;
+  color:Blue;
   font-family:Comic Sans MS;
 }
 p{
-  color:lightGreen;
+  color:Blue;
   font-family:Comic Sans MS;
   background-color: blue;
 }
