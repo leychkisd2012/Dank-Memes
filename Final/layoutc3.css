@@ -6,7 +6,10 @@ body {
   margin: 0;
   padding:0;
   background-color:gray;
-
+width:100%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
 }
 
 h1{
