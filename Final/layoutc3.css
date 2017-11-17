@@ -92,3 +92,6 @@ margin:0;
     padding: 10px;
     text-align: center;
 }
+.column.middle p{
+    size:14;
+}
